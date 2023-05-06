@@ -1,7 +1,3 @@
-const registerController = require('./registerController.js')
-const loginController = require('./loginController.js')
+const register = require("./auth/register");
 
-module.exports = {
-    registerController,
-    loginController,
-}
+module.exports = { register };

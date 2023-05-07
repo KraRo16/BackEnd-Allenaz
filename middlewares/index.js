@@ -1,5 +1,3 @@
-const requireAuth = require('./authMiddleware')
-
-module.exports = {
-    requireAuth
-}
+const validateBody = require("./validateBody");
+const authentificate = require("./authentificate");
+module.exports = { validateBody, authentificate };

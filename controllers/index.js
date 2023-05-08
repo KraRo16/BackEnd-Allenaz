@@ -1,3 +1,3 @@
 const register = require("./auth/register");
-
-module.exports = { register };
+const login = require("./auth/login");
+module.exports = { register, login };
